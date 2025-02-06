@@ -13,3 +13,5 @@ class MemoryManager:
         if long_term:
             return self.long_term.get(key)
         return self.short_term.get(key)
+    def get_usage():
+        return "Not implemented yet"
